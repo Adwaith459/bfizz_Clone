@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+ /*---------HEADER PORTION-----------*/
+header{
+    width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background: rgb(0, 0, 43);
+     z-index: 10;
+     position: fixed;
+}
+.header-logo{
+    height: 70px;
+    padding: 0 30px;
+    
+    
+
+} 
+.header-logo img{
+    max-width: 120px;
+    margin-top: 25px;
+}
+.text-list{
+    display: flex;
+    gap: 38px;
+    padding: 0 30px;
+}
+.text-list li a{
+    text-decoration: none;
+    color: #fff;
+}
+.text-list li{
+    list-style-type: none;
+}
+.text-list i{
+    color: #fff;
+}
+
+/*-----------MIDDLE SECTION------------*/
+
+.img-sec img{
+    width: 100%;
+    max-height: 100%;
+    
+
+}
+.middle-sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -5px;
+
+}
+.text-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text-sec p{
+    margin: 20px;
+    font-size: 24px;
+    padding: 0 90px;
+}
+.middle-logo img{
+    margin: 2px;
+    
+}
+.middle-logo{
+    display: flex;
+    position: relative;
+    right: 280px;
+}
+.fizz-models{
+    margin: -5px;
+}
+
+/*--------------FOOTER SECTION CSS-----------*/
+footer{
+    padding: 40px 200px;
+    margin: 30px;
+    
+}
+.footer-contents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.foo-text{
+    margin-top: -30px;
+    font-size: 14px;
+    
+}
+.foo-text ul{
+    list-style-type: none;
+}
+
+
+
